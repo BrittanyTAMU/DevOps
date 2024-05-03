@@ -1,0 +1,76 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+    box-sizing: border-box;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  h1, h2{
+    text-align: center;
+  }
+
+  span{
+    display: block;
+     /* wont sit next to each other, only underneath each other */
+    line-height: 2rem;
+  }
+
+  .container-top{
+    justify-content: center;
+    margin: auto; 
+    /* allowed margin to center the entire calc into the center of the pg */
+    padding: 5px;
+    width: 350px;
+    border: 3px solid black;
+  }
+
+  .display-window{
+    align-items: center;
+    text-align: right;
+    margin: 0 auto ;
+    width: 250px;
+    height: 75px;
+    border: 2px solid black;
+    font-family: 'Press Start 2P' sans-serif;
+    font-size: 24px;
+    padding: 5px;
+  }
+
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    border: 3px solid black;
+    margin: 0 auto;
+    list-style: none;
+  }
+
+ li {
+    height: 100px;
+    min-height: 100px
+    padding = 10px;
+    text-align: center;
+    border : 1px solid black
+ }
+
+ button{
+    font-weight: bold; 
+     font-size:2rem;
+     padding: 20px;
+ }
